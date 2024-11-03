@@ -222,3 +222,51 @@ section {
   align-items: center;
   gap: 6px;
 }
+footer {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+}
+.foot-content {
+  color: rgb(183 182 182);
+  width: 80%;
+}
+.contact-link {
+  color: rgb(183 182 182);
+  font-size: 1.1rem;
+}
+.link-container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.link {
+  list-style-type: none;
+  margin-bottom: 13px;
+}
+.link a {
+  color: rgb(183 182 182);
+}
+.language-select {
+  border: 1px solid rgb(183 182 182);
+  border-radius: 3px;
+  background-color: #0f0f0f;
+  color: #ffffff;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: 3px;
+  padding: 8px 12px;
+  margin: 40px 0px;
+}
+.language {
+  background-color: #0f0f0f;
+  font-size: 1.1rem;
+  color: #ffffff;
+  border: none;
+}
+.rights {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  margin-bottom: 70px;
+}
