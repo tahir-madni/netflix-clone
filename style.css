@@ -1,0 +1,16 @@
+@font-face {
+  font-family: font-regular;
+  src: url("assets/font/netflix-sans-font/NetflixSans-Regular.otf");
+}
+@font-face {
+  font-family: font-bold;
+  src: url("assets/font/netflix-sans-font/NetflixSans-Bold.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: font-regular;
+  color: #ffffff;
+}
